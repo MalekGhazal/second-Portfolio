@@ -10729,7 +10729,7 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .btn-rounded {
-    display: none;
+    visibility: hidden;
   }
 }
 .btn-rounded span {
@@ -10753,6 +10753,37 @@ textarea.form-control-lg {
 }
 .btn-rounded:hover span {
   background-color: rgba(0, 0, 0, 0.6);
+}
+
+.resume {
+  text-decoration: none;
+}
+@media (max-width: 575.98px) {
+  .resume {
+    visibility: visible !important;
+  }
+}
+.resume span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.github {
+  text-decoration: none;
+  background-color: #bbd6b8;
+  color: #212529;
+  width: 100%;
+}
+@media (max-width: 575.98px) {
+  .github {
+    visibility: visible !important;
+  }
+}
+.github span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .display-2 {

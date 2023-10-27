@@ -1,7 +1,7 @@
 @use "../custom" as *;
 @use "../components/mixins" as *;
 
-.testimonials {
+.techstacks {
   position: relative;
   padding: 0;
   @include gradient;
@@ -31,10 +31,6 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-
-    img {
-      border: 0.32rem solid rgba($primary, 0.7);
-    }
   }
 
   &__name {

@@ -18,3 +18,19 @@
     }
   }
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+}
+
+.grid-item {
+  max-width: 100%;
+}
+
+@media (min-width: 992px) {
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  }
+}
